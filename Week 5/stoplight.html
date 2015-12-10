@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stoplight</title>
+    <link rel="stylesheet" href="stoplight.css" />
+  </head>
+  <body>
+      <button type = "button" id = "stop"> Stop </button>
+      <button type = "button" id = "slow"> Slow </button>
+      <button type = "button" id = "go"> Go </button>
+      <button type = "button" id = "caution"> Caution </button>
+
+      <div class = "lights">
+        <div class = "light" id = "redLight"></div>
+        <div class = "light" id = "yellowLight"></div>
+        <div class = "light" id = "greenLight"></div>
+      </div>
+    </body>
+</html>
+
+<script>
+//buttons
+var stop = document.querySelector("#stop");
+var slow = document.querySelector("#slow");
+var go = document.querySelector("#go");
+var caution = document.querySelector("#caution");
+
+//default lights
+var redLight = document.querySelector("#redLight");
+redLight.style.background = '#282828';
+
+var yellowLight = document.querySelector("#yellowLight");
+yellowLight.style.background = '#282828';
+
+var greenLight = document.querySelector("#greenLight");
+greenLight.style.background = '#282828';
+
+
+
+//added the background color here instead of in CSS
+//...as I couldn't figure out how to make the default color change to red, yellow or green.
+//...thus, led me to play with the remainder of the code:
+
+
+function changeRed(event) {
+  resetLights();
+  redLight.classList.add("#redLight");
+  redLight.style.background = 'red';
+}
+stop.addEventListener("click", changeRed);
+
+
+function changeYellow(event) {
+  resetLights();
+  yellowLight.classList.add("#yellowLight");
+  yellowLight.style.background = 'yellow';
+}
+slow.addEventListener("click", changeYellow);
+
+
+function changeGreen(event) {
+  resetLights();
+  greenLight.classList.add("#greenLight");
+  greenLight.style.background = 'green';
+}
+go.addEventListener("click", changeGreen);
+
+function cautionLight(event) {
+  resetLights();
+  yellowLight.classList.toggle("yellowLight");
+  yellowLight.style.background = 'yellow';
+}
+caution.addEventListener("click", cautionLight);
+
+
+function resetLights() {
+  redLight.style.background = '#282828';
+  redLight.style.transition = ".75s";
+  yellowLight.style.background = '#282828';
+  yellowLight.style.transition = ".75s";
+  greenLight.style.background = '#282828';
+  greenLight.style.transition = ".75s";
+}
+</script>
