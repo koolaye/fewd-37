@@ -9,7 +9,7 @@
       <button type = "button" id = "stop"> Stop </button>
       <button type = "button" id = "slow"> Slow </button>
       <button type = "button" id = "go"> Go </button>
-      <button type = "button" id = "caution"> Caution </button>
+      <!-- <button type = "button" id = "caution"> Caution </button> -->
 
       <div class = "lights">
         <div class = "light" id = "redLight"></div>
@@ -24,7 +24,7 @@
 var stop = document.querySelector("#stop");
 var slow = document.querySelector("#slow");
 var go = document.querySelector("#go");
-var caution = document.querySelector("#caution");
+// var caution = document.querySelector("#caution");
 
 //default lights
 var redLight = document.querySelector("#redLight");
@@ -66,12 +66,12 @@ function changeGreen(event) {
 }
 go.addEventListener("click", changeGreen);
 
-function cautionLight(event) {
-  resetLights();
-  yellowLight.classList.toggle("yellowLight");
-  yellowLight.style.background = 'yellow';
-}
-caution.addEventListener("click", cautionLight);
+// function cautionLight(event) {
+//   resetLights();
+//   yellowLight.classList.toggle("yellowLight");
+//   yellowLight.style.background = 'yellow';
+// }
+// caution.addEventListener("click", cautionLight);
 
 
 function resetLights() {
