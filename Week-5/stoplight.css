@@ -1,0 +1,21 @@
+.lights {
+  height: 550px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  border: 30px;
+  box-shadow: 0px 0px 4px -0.5px;
+  background-color: rgb(236, 201, 0);
+}
+
+.light {
+  height: 150px;
+  width: 150px;
+  margin: 25px;
+  border-radius: 60%;
+  /*background-color: #282828;*/
+/*BG color remained as a default regardless*/
+}
