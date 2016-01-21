@@ -1,0 +1,52 @@
+#page3 {
+  height: 830px;
+  background-color: rgb(41, 41, 40);
+}
+
+    #page3 blockquote {
+      width:600px;
+    }
+
+    #page3 h1 {
+       margin-left: auto;
+        margin-right: auto;
+        min-width:960px;
+        left: 225px;
+      font-size: 400%;
+      font-family: "Noteworthy";
+      color: rgb(112, 184, 0);
+      text-shadow: 2px 2px rgb(149, 126, 67);
+    }
+
+    #page3 p {
+      border-radius: 50px;
+      background-color: rgb(238, 67, 67);
+      padding: 20px;
+      color: rgb(212, 214, 193);
+      font-size: 180%;
+      line-height: 40px;
+      left: 385px;
+    position: relative;
+      bottom: 100px;
+    }
+
+
+    blockquote:before {
+      font-family: Georgia, serif;
+    content: "\201C";
+    font-size: 150px;
+    left: 320px;
+    top: 20px;
+    color: rgb(149, 126, 67);
+    position: relative;
+    }
+
+    blockquote:after {
+      font-family: Georgia, serif;
+    content: "\201D";
+    font-size: 150px;
+    left: 1000px;
+    bottom: 150px;
+    color: rgb(149, 126, 67);
+    position: relative;
+    }

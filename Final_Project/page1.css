@@ -1,0 +1,95 @@
+#page1 {
+      height: 830px;
+      background-color: rgb(246, 220, 162);
+    }
+
+    #page1 #section {
+      width: 1000px;
+    }
+
+              #page1 h1 {
+                font-size: 400%;
+                text-align: center;
+                font-family: "Noteworthy";
+                color: rgb(84, 57, 125);
+                text-shadow: 2px 2px rgb(50, 28, 80);
+              }
+
+
+              #page1 .circle {
+                  float:left;
+                  padding: 6%;
+                  width:auto;
+                  height:auto;
+                  top: 50px;
+                  border-radius:50%;
+                  background:#eee;
+                  position: relative;
+              }
+
+              /*FIX*/
+                  #page1 .a {
+                  position: absolute;
+                  width: 100%;
+                  left: 0;
+                  top: 38%;
+                  font-size: 100%;
+
+
+
+
+            }
+          /*small circles*/
+          #page1 #sm1 {
+          padding: 2%;
+          left: 550px;
+          top: 395px;
+          background-color: rgba(246, 220, 162, 0.8);
+          }
+
+          #page1 #sm2 {
+          padding: 2%;
+          left: 180px;
+          top: 130px;
+          }
+          #page1 #sm3 {
+          padding: 2%;
+          left: 880px;
+          top: 110px;
+          }
+
+          /*medium circles*/
+          #page1 #med1 {
+          padding: 4%;
+          left: 190px;
+          top: 310px;
+          }
+          #page1 #med2 {
+          padding: 4%;
+          left: 150px;
+          top: 160px;
+          background-color: rgba(248, 117, 72, 0.8);
+          }
+          #page1 #med3 {
+          padding: 4%;
+          left: 650px;
+          top: 240px;
+          }
+
+          /*big circles*/
+          #page1 #big1 {
+          padding: 8%;
+          left: 360px;
+          top: 150px;
+          background-color: rgba(127, 187, 152, 0.8);
+          }
+          #page1 #big2 {
+          padding: 10%;
+          top: 250px;
+          right: 30px;
+          }
+          #page1 #big3 {
+          padding: 7%;
+          left: 620px;
+          top: 150px;
+          }

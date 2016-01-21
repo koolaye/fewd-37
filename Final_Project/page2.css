@@ -1,0 +1,66 @@
+#page2 {
+  height: 850px;
+  background-color: rgb(40, 51, 71);
+}
+        #page2 h1 {
+          text-align: center;
+          margin: 0 auto;
+          font-size: 400%;
+          font-family: "Noteworthy";
+          color: rgb(31, 157, 148);
+          text-shadow: 2px 2px rgb(228, 217, 204);
+        }
+
+        .form{
+          font-family: 'Open Sans Condensed', arial, sans;
+         width: 500px;
+         padding: 30px;
+         background: rgb(228, 217, 204);
+         margin: 50px auto;
+         box-shadow: 0px 0px 30px rgb(230, 91, 74);
+         border-radius: 25px;
+
+        }
+        .form input[type="text"],
+        .form textarea,
+        .form select
+        {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            outline: none;
+            display: block;
+            width: 100%;
+            padding: 7px;
+            border: none;
+            border-bottom: 1px solid black;
+            background: transparent;
+            margin-bottom: 10px;
+            font: 16px Arial, Helvetica, sans-serif;
+            height: 45px;
+        }
+
+        ::-webkit-input-placeholder {
+         font-size: 14px;
+         color: rgba(230, 91, 74, 0.8);
+         font-weight: bold;
+
+        }
+        .form textarea{
+            resize:none;
+            overflow: hidden;
+        }
+        #button2 {
+          -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+            -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+            box-shadow: inset 0px 1px 0px 0px #45D6D6;
+            background-color: rgb(31, 157, 148);
+            border: 1px solid #27A0A0;
+            display: inline-block;
+            color: #FFFFFF;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 14px;
+            padding: 8px 18px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }

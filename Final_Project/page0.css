@@ -1,0 +1,80 @@
+html body {
+  background-color: black;
+    margin: 0;
+    height: 100%;
+}
+
+#page0 {
+      height: 830px;
+      background-color: rgb(110, 180, 208);;
+    }
+
+          #button {
+            right: 650px;
+          top: 600px;
+          position: absolute;
+           border-top: 1px solid black;
+           background: -webkit-linear-gradient(top, rgb(240, 114, 25), rgb(249, 82, 0));
+           padding: 15px 30px;
+           border-radius: 18px;
+           box-shadow: rgba(0,0,0,1) 0 1px 0;
+           text-shadow: rgba(0,0,0,.4) 0 1px 0;
+           color: white;
+           font-size: 30px;
+           font-family: Georgia, serif;
+           text-decoration: none;
+
+             }
+          #button:hover {
+             border-top-color: #28597a;
+             background: rgb(63, 35, 103);
+             color: #ccc;
+          }
+
+          /*div {
+            background: red;
+            height: 100px;
+            width: 100px;
+            position:
+            absolute;
+            left: -100px;
+
+          }*/
+
+          #leftBlock h1 {
+               font-size: 400%;
+                  font-family: "Noteworthy";
+                  color: rgb(222, 105, 0);
+                  text-shadow: 2px 2px #ff0000;
+
+                 }
+
+                 #leftBlock section {
+                    padding: 5px;
+                   position: relative;
+                   top: 180px;
+                   max-width: 80%;
+                   border-top-right-radius: 3em;
+                   border-bottom-right-radius: 3em;
+                   background-color: rgb(224, 228, 203);
+                 }
+
+              #rightBlock h1 {
+                font-size: 400%;
+                font-family: "Noteworthy";
+                color: rgb(222, 105, 0);
+                text-shadow: 2px 2px #ff0000;
+
+                 }
+
+                 #rightBlock section {
+                   padding: 5px;
+                   position: relative;
+                   left: 630px;
+                   top: 200px;
+                   max-width: 80%;
+                   border-top-left-radius: 3em;
+                   border-bottom-left-radius: 3em;
+                   background-color: rgb(224, 228, 203);
+
+                 }
