@@ -18,30 +18,42 @@ $("#page0").ready(function(displayIntroPage) {
 //REVEAL FIRST PAGE
 $("#button").on("click", function(displayFirstPage) {
   $("#page1").show();
+  // $('#big1').addClass('animated infinite bounceOutLeft');
 });
 
 
 
-
 //REVEAL SECOND PAGE, SHOW BAR FORM1, HIDE NETWORKING FORM2
-$("div.circle, a #bar-form").on("click", function(showBar) {
+$("#sm1 a").on("click", function(showBar) {
   $("#page2").show();
   $("#bar-form").show();
   $("#networking-form").hide();
   });
 
+
+
   //REVEAL SECOND PAGE, SHOW NETWORKING FORM2, HIDE BAR FORM1
-  $("div.circle, a #networking-form").on("click", function(showNetworking) {
+  $("#med3 a").on("click", function(showNetworking) {
     $("#page2").show();
-    $("#networking-form").show();
     $("#bar-form").hide();
-    });
+    $("#networking-form").show();
+  });
+
+    // $("div.circle, a #networking-form").on("click", function(showNetworking) {
+    // $("#networking-form").show();
+    // $("#bar-form").hide();
+    // });
+
 
 //REVEAL THIRD PAGE WHEN BUTTON IS CLICKED, HIDE SCRIPT2
-$("#bar-form").find("#button2").on("click", function(createScript) {
+// $("div#bar-form, #button2").on("click", function(createScript) {
+
+  $("#bar-form").find("#button2").on("click", function(createScript) {
+
   $("#page3").show();
   $("#bar-script").show();
   $("#networking-script").hide();
+
 
   $(".line1").append($(".greeting").val());
   $(".line2").append($(".sport-name").val());
@@ -54,7 +66,7 @@ $("#bar-form").find("#button2").on("click", function(createScript) {
 
 
 //REVEAL THIRD PAGE WHEN BUTTON IS CLICKED, HIDE SCRIPT2
-$(".networking-form").find("#button2").on("click", function(createScript) {
+$("#networking-form").find("#button2").on("click", function(createScript) {
   $("#page3").show();
   $("#networking-script").show();
   $("#bar-script").hide();

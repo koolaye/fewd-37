@@ -1,6 +1,8 @@
 #page1 {
-      height: 830px;
+      height: 1000px;
       background-color: rgb(246, 220, 162);
+      overflow-x: hidden;
+      overflow-y: hidden;
     }
 
     #page1 #section {
@@ -78,6 +80,7 @@
 
           /*big circles*/
           #page1 #big1 {
+
           padding: 8%;
           left: 360px;
           top: 150px;

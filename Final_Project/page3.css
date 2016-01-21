@@ -1,6 +1,8 @@
 #page3 {
-  height: 830px;
+  height: 1000px;
   background-color: rgb(41, 41, 40);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
     #page3 blockquote {

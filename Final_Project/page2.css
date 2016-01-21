@@ -1,6 +1,8 @@
 #page2 {
-  height: 850px;
+  height: 1000px;
   background-color: rgb(40, 51, 71);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
         #page2 h1 {
           text-align: center;

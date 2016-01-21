@@ -5,9 +5,51 @@ html body {
 }
 
 #page0 {
-      height: 830px;
-      background-color: rgb(110, 180, 208);;
+      height: 1000px;
+      background-color: rgb(110, 180, 208);
+      overflow-x: hidden;
+      overflow-y: hidden;
     }
+
+    #leftBlock h1 {
+        margin: 0;
+        margin-left: 90px;
+         font-size: 400%;
+            font-family: "Noteworthy";
+            color: rgb(222, 105, 0);
+            text-shadow: 2px 2px #ff0000;
+
+           }
+
+           #leftBlock section {
+        width: 700px;
+        position: absolute;
+             top: 240px;
+             border-top-right-radius: 3em;
+             border-bottom-right-radius: 3em;
+             background-color: rgb(224, 228, 203);
+           }
+
+        #rightBlock h1 {
+            text-align: center;
+            margin-right: 600px;
+          font-size: 400%;
+          font-family: "Noteworthy";
+          color: rgb(222, 105, 0);
+          text-shadow: 2px 2px #ff0000;
+
+           }
+
+           #rightBlock section {
+margin-top: 170px;
+        position: relative;
+             left: 600px;
+             top: 200px;
+             border-top-left-radius: 3em;
+             border-bottom-left-radius: 3em;
+             background-color: rgb(224, 228, 203);
+
+           }
 
           #button {
             right: 650px;
@@ -40,41 +82,3 @@ html body {
             left: -100px;
 
           }*/
-
-          #leftBlock h1 {
-               font-size: 400%;
-                  font-family: "Noteworthy";
-                  color: rgb(222, 105, 0);
-                  text-shadow: 2px 2px #ff0000;
-
-                 }
-
-                 #leftBlock section {
-                    padding: 5px;
-                   position: relative;
-                   top: 180px;
-                   max-width: 80%;
-                   border-top-right-radius: 3em;
-                   border-bottom-right-radius: 3em;
-                   background-color: rgb(224, 228, 203);
-                 }
-
-              #rightBlock h1 {
-                font-size: 400%;
-                font-family: "Noteworthy";
-                color: rgb(222, 105, 0);
-                text-shadow: 2px 2px #ff0000;
-
-                 }
-
-                 #rightBlock section {
-                   padding: 5px;
-                   position: relative;
-                   left: 630px;
-                   top: 200px;
-                   max-width: 80%;
-                   border-top-left-radius: 3em;
-                   border-bottom-left-radius: 3em;
-                   background-color: rgb(224, 228, 203);
-
-                 }
