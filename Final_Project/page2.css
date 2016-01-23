@@ -1,5 +1,7 @@
 #page2 {
   height: 1000px;
+  width: 1440px;
+
   background-color: rgb(40, 51, 71);
   overflow-x: hidden;
   overflow-y: hidden;

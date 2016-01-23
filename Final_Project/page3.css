@@ -1,5 +1,7 @@
 #page3 {
   height: 1000px;
+  width: 1440px;
+
   background-color: rgb(41, 41, 40);
   overflow-x: hidden;
   overflow-y: hidden;
@@ -51,4 +53,12 @@
     bottom: 150px;
     color: rgb(149, 126, 67);
     position: relative;
+    }
+
+    #page3 #query {
+      width: 80%;
+      position: absolute;
+      background-color: white;
+      color: white;
+      font-size: 400%;
     }

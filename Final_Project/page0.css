@@ -1,19 +1,30 @@
+
+
+
+
 html body {
+
   background-color: black;
     margin: 0;
     height: 100%;
+
 }
 
 #page0 {
+   width: 1440px;
       height: 1000px;
       background-color: rgb(110, 180, 208);
       overflow-x: hidden;
       overflow-y: hidden;
     }
 
+
+
     #leftBlock h1 {
-        margin: 0;
-        margin-left: 90px;
+        margin: 0 auto;
+        width: 700px;
+        margin-left: 180px;
+        margin-bottom: 15px;
          font-size: 400%;
             font-family: "Noteworthy";
             color: rgb(222, 105, 0);
@@ -22,39 +33,46 @@ html body {
            }
 
            #leftBlock section {
-        width: 700px;
-        position: absolute;
-             top: 240px;
-             border-top-right-radius: 3em;
-             border-bottom-right-radius: 3em;
+
+             box-shadow: 0px 0px 4px -0.5px;
+             border-radius: 7px;
+               margin: 0 auto;
+               width: 1440px;
+               position: absolute;
+             top: 150px;
+
              background-color: rgb(224, 228, 203);
            }
 
+
+
+
         #rightBlock h1 {
-            text-align: center;
-            margin-right: 600px;
-          font-size: 400%;
-          font-family: "Noteworthy";
-          color: rgb(222, 105, 0);
-          text-shadow: 2px 2px #ff0000;
+             margin: 0 auto;
+             margin-bottom: 15px;
+             width: 700px;
+         font-size: 400%;
+         margin-left: 640px;
+            font-family: "Noteworthy";
+            color: rgb(222, 105, 0);
+            text-shadow: 2px 2px #ff0000;
 
            }
 
            #rightBlock section {
-margin-top: 170px;
-        position: relative;
-             left: 600px;
-             top: 200px;
-             border-top-left-radius: 3em;
-             border-bottom-left-radius: 3em;
+             box-shadow: 0px 0px 4px -0.5px;
+     border-radius: 7px;
+        width: 1440px;
+        position: absolute;
+        top: 300px;
              background-color: rgb(224, 228, 203);
 
            }
 
           #button {
-            right: 650px;
-          top: 600px;
-          position: absolute;
+              left: 590px;
+              top: 650px;
+    position: relative;
            border-top: 1px solid black;
            background: -webkit-linear-gradient(top, rgb(240, 114, 25), rgb(249, 82, 0));
            padding: 15px 30px;
@@ -70,15 +88,53 @@ margin-top: 170px;
           #button:hover {
              border-top-color: #28597a;
              background: rgb(63, 35, 103);
-             color: #ccc;
           }
 
-          /*div {
-            background: red;
-            height: 100px;
-            width: 100px;
-            position:
-            absolute;
-            left: -100px;
 
-          }*/
+
+
+
+/*INNOCENT CREEPER DUDE*/
+          #creeperDude {
+            margin-left: 40em;
+            margin-top: 33.5em;
+      /*to hide:600px */
+      /*to hide:535px */
+           height:70px;
+           width:120px;
+           border-radius: 90px 90px 0 0;
+           background: whitesmoke;
+      }
+
+
+      #creeperDude::before {
+        animation: blink 6s infinite;
+
+        background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
+         background-position: 0 -100%;
+         background-size: 200%;
+        background: #000;
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+        width: 1em;
+        height: 1em;
+        left: 40em;
+        top: 37em;
+      }
+
+      #creeperDude::after {
+         animation: blink 6s infinite;
+
+        background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
+         background-position: 0 -100%;
+         background-size: 200%;
+        background: #000;
+        border-radius: 50%;
+        content: "";
+        position: absolute;
+        width: 1em;
+        height: 1em;
+        left: 42em;
+        top: 37em;
+}
