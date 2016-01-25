@@ -1,6 +1,6 @@
 #page3 {
+  width: 2500px;
   height: 1000px;
-  width: 1440px;
   background-color: rgb(41, 41, 40);
 }
 #page3 blockquote {
@@ -9,7 +9,7 @@
 #page3 h1 {
   margin: 0 auto;
   width: 850px;
-  margin-left: 335px;
+  margin-left: 3350px;
   margin-bottom: 15px;
   font-size: 400%;
   font-family: "Noteworthy";
