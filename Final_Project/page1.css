@@ -1,5 +1,5 @@
 #page1 {
-  width: 2500px;
+  width: 1440px;
   height: 1000px;
   background-color: rgb(246, 220, 162);
   overflow-y: hidden;
@@ -10,7 +10,7 @@
 
 #page1 h1 {
   font-size: 400%;
-  margin-left: 455px;
+  text-align: center;
   font-family: "Noteworthy";
   color: rgb(84, 57, 125);
   text-shadow: 2px 2px rgb(50, 28, 80);
