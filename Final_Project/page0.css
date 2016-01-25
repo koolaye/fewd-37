@@ -1,140 +1,140 @@
-
-
-
-
 html body {
-
-  background-color: black;
-    margin: 0;
-    height: 100%;
-
+  background-color: white;
+  margin: 0;
+  height: 100%;
+}
+#page0 {
+  width: 1440px;
+  height: 1000px;
+  background-color: rgb(110, 180, 208);
 }
 
-#page0 {
-   width: 1440px;
-      height: 1000px;
-      background-color: rgb(110, 180, 208);
-      overflow-x: hidden;
-      overflow-y: hidden;
-    }
+#leftBlock h1 {
+  margin: 0 auto;
+  width: 800px;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  font-size: 400%;
+  font-family: "Noteworthy";
+  color: rgb(222, 105, 0);
+  text-shadow: 2px 2px #ff0000;
+}
+#leftBlock section {
+  box-shadow: 0px 0px 4px -0.5px;
+  border-radius: 7px;
+  margin: 0 auto;
+  width: 1440px;
+  position: absolute;
+  top: 150px;
+  background-color: rgb(224, 228, 203);
+}
+#rightBlock h1 {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 800px;
+  font-size: 400%;
+  margin-left: 640px;
+  font-family: "Noteworthy";
+  color: rgb(222, 105, 0);
+  text-shadow: 2px 2px #ff0000;
+}
+#rightBlock section {
+  box-shadow: 0px 0px 4px -0.5px;
+  border-radius: 7px;
+  width: 1440px;
+  position: absolute;
+  top: 300px;
+  background-color: rgb(224, 228, 203);
+}
 
+#button {
+  left: 590px;
+  top: 650px;
+  position: relative;
+  border-top: 1px solid black;
+  background: rgb(240, 114, 25);
+  padding: 15px 30px;
+  border-radius: 18px;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+}
+#button:hover {
+  border-top-color: #28597a;
+  background: rgb(63, 35, 103);
+}
 
+#creeperDude {
+  margin-left: 40.5em;
+  margin-top: 33.5em;
+  height:70px;
+  width:120px;
+  border-radius: 90px 90px 0 0;
+  background: whitesmoke;
+}
 
-    #leftBlock h1 {
-        margin: 0 auto;
-        width: 700px;
-        margin-left: 180px;
-        margin-bottom: 15px;
-         font-size: 400%;
-            font-family: "Noteworthy";
-            color: rgb(222, 105, 0);
-            text-shadow: 2px 2px #ff0000;
+#lEye, #rEye {
+  position: absolute;
+  margin-left: 575px;
+  margin-top: 495px;
+  top: 100px;
+  visibility: hidden;
+}
+#lDot, #rDot {
+  position: absolute;
+  top: 113px;
+}
+#lEye {
+  left: 100px;
+}
+#rEye {
+  left: 150px;
+}
+#lDot {
+  width:10px;
+  height:15px;
+  background:rgba(0,0,0,.9);
+  border-radius:10px;
+  border-radius:50%;
+  animation:blink 4s ease-in-out infinite;
+}
+#rDot {
+  width:10px;
+  height:15px;
+  background:rgba(0,0,0,.9);
+  border-radius:10px;
+  border-radius:50%;
+  animation:blink 4s ease-in-out infinite;
+}
+@keyframes blink { 90% { transform:none; } 95% { transform:rotateX(90deg); } }
 
-           }
-
-           #leftBlock section {
-
-             box-shadow: 0px 0px 4px -0.5px;
-             border-radius: 7px;
-               margin: 0 auto;
-               width: 1440px;
-               position: absolute;
-             top: 150px;
-
-             background-color: rgb(224, 228, 203);
-           }
-
-
-
-
-        #rightBlock h1 {
-             margin: 0 auto;
-             margin-bottom: 15px;
-             width: 700px;
-         font-size: 400%;
-         margin-left: 640px;
-            font-family: "Noteworthy";
-            color: rgb(222, 105, 0);
-            text-shadow: 2px 2px #ff0000;
-
-           }
-
-           #rightBlock section {
-             box-shadow: 0px 0px 4px -0.5px;
-     border-radius: 7px;
-        width: 1440px;
-        position: absolute;
-        top: 300px;
-             background-color: rgb(224, 228, 203);
-
-           }
-
-          #button {
-              left: 590px;
-              top: 650px;
-    position: relative;
-           border-top: 1px solid black;
-           background: -webkit-linear-gradient(top, rgb(240, 114, 25), rgb(249, 82, 0));
-           padding: 15px 30px;
-           border-radius: 18px;
-           box-shadow: rgba(0,0,0,1) 0 1px 0;
-           text-shadow: rgba(0,0,0,.4) 0 1px 0;
-           color: white;
-           font-size: 30px;
-           font-family: Georgia, serif;
-           text-decoration: none;
-
-             }
-          #button:hover {
-             border-top-color: #28597a;
-             background: rgb(63, 35, 103);
-          }
-
-
-
-
-
-/*INNOCENT CREEPER DUDE*/
-          #creeperDude {
-            margin-left: 40em;
-            margin-top: 33.5em;
-      /*to hide:600px */
-      /*to hide:535px */
-           height:70px;
-           width:120px;
-           border-radius: 90px 90px 0 0;
-           background: whitesmoke;
-      }
-
-
-      #creeperDude::before {
-        animation: blink 6s infinite;
-
-        background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
-         background-position: 0 -100%;
-         background-size: 200%;
-        background: #000;
-        border-radius: 50%;
-        content: "";
-        position: absolute;
-        width: 1em;
-        height: 1em;
-        left: 40em;
-        top: 37em;
-      }
-
-      #creeperDude::after {
-         animation: blink 6s infinite;
-
-        background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
-         background-position: 0 -100%;
-         background-size: 200%;
-        background: #000;
-        border-radius: 50%;
-        content: "";
-        position: absolute;
-        width: 1em;
-        height: 1em;
-        left: 42em;
-        top: 37em;
+.sayHi {
+  position: relative;
+  width: 80px;
+  height: 45px;
+  margin-left: 790px;
+  margin-top: -130px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(224, 228, 202);
+  animation-delay: 5s;
+}
+.sayHi:after {
+  content:"";
+  position: absolute;
+  right: 96px;
+  top: 50px;
+  border-top: 13px solid transparent;
+  border-right: 26px solid rgb(224, 228, 202);
+  border-bottom: 1px solid rgb(224, 228, 202);
+  transform: rotate(-20deg);
+}
+.sayHi p {
+  font-size: 50px;
+  position: absolute;
+  top: -45px;
+  left: 20px;
 }

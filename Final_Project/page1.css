@@ -1,132 +1,113 @@
 #page1 {
   width: 1440px;
-      height: 1000px;
-      background-color: rgb(246, 220, 162);
-      overflow-y: hidden;
-    }
+  height: 1000px;
+  background-color: rgb(246, 220, 162);
+  overflow-y: hidden;
+}
+#page1 #section {
+  width: 1000px;
+}
 
-    #page1 #section {
-      width: 1000px;
-    }
+#page1 h1 {
+  font-size: 400%;
+  text-align: center;
+  font-family: "Noteworthy";
+  color: rgb(84, 57, 125);
+  text-shadow: 2px 2px rgb(50, 28, 80);
+}
+#section a {
+  text-decoration: none;
+  font-size: 170%;
+  color: rgb(246, 220, 162);
+}
 
-              #page1 h1 {
-                font-size: 400%;
-                text-align: center;
-                font-family: "Noteworthy";
-                color: rgb(84, 57, 125);
-                text-shadow: 2px 2px rgb(50, 28, 80);
-              }
+#page1 .circle {
+  float:left;
+  border-radius:50%;
+  background:#eee;
+  position: relative;
+}
 
-              #section a {
-                  text-decoration: none;
-                  font-size: 170%;
-                  color: rgb(246, 220, 162);              }
+/*small circles*/
+/*bar*/
+#page1 #sm1 {
+  padding: 4%;
+  left: 55em;
+  top: 225px;
+  box-shadow: 0px 0px 10px rgb(248, 117, 72);
+  background-color: rgba(248, 117, 72, 0.8);
+}
+/*Date*/
+#page1 #sm2 {
+  padding: 6%;
+  left: -5em;
+  top: 130px;
+  background-color: rgba(99, 66, 148, 0.6);
+}
+/*school*/
+#page1 #sm3 {
+  padding: 5%;
+  right: -13em;
+  top: 13em;
+  box-shadow: 0px 0px 10px rgb(127, 187, 152);
+  background-color: rgba(127, 187, 152, 0.8);
+}
 
+/*medium circles*/
+/*Festival*/
+#page1 #med1 {
+  padding: 6%;
+  right: -1em;
+  top: 2em;
+  box-shadow: 0px 0px 10px rgb(154, 5, 71);
+  background-color: rgba(154, 5, 71, 0.5);
+}
+/*concert*/
+#page1 #med2 {
+  padding: 6%;
+  left: -5em;
+  bottom: -200px;
+  background-color: rgba(248, 117, 72, 0.8);
+}
+/*networking*/
+#page1 #med3 {
+  padding: 7%;
+  left: 19em;
+  top: 0em;
+  background-color: rgba(154, 5, 71, 0.5);
+}
 
-              #page1 .circle {
-                  float:left;
-                  border-radius:50%;
-                  background:#eee;
-                  position: relative;
-              }
-
-
-          /*small circles*/
-/*       bar     */
-          #page1 #sm1 {
-          padding: 4%;
-          left: 55em;
-          top: 225px;
-                                  box-shadow: 0px 0px 10px rgb(248, 117, 72);
-
-                    background-color: rgba(248, 117, 72, 0.8);
-
-          }
-
-/*       Date     */
-          #page1 #sm2 {
-          padding: 6%;
-          left: -5em;
-          top: 130px;
-          background-color: rgba(99, 66, 148, 0.6);
-          }
-/*        school    */
-          #page1 #sm3 {
-          padding: 5%;
-          right: -13em;
-          top: 13em;
-                                  box-shadow: 0px 0px 10px rgb(127, 187, 152);
-
-          background-color: rgba(127, 187, 152, 0.8);
-          }
-
-          /*medium circles*/
-/*         Festival   */
-          #page1 #med1 {
-          padding: 6%;
-          right: -1em;
-          top: 2em;
-                                            box-shadow: 0px 0px 10px rgb(154, 5, 71);
-
-                              background-color: rgba(154, 5, 71, 0.5);
-
-          }
-
-          /*       concert     */
-          #page1 #med2 {
-          padding: 6%;
-          left: -5em;
-          bottom: -200px;
-          background-color: rgba(248, 117, 72, 0.8);
-          }
-/*         networking   */
-          #page1 #med3 {
-          padding: 7%;
-          left: 19em;
-          top: 0em;
-                              background-color: rgba(154, 5, 71, 0.5);
-
-          }
-
-          /*big circles*/
-          #page1 #big1 {
-
+/*big circles*/
 /* Traveling */
-          padding: 10%;
-          left: 10em;
-          top: 150px;
-                        box-shadow: 0px 0px 10px rgb(127, 187, 152);
+#page1 #big1 {
+  padding: 10%;
+  left: 10em;
+  top: 150px;
+  box-shadow: 0px 0px 10px rgb(127, 187, 152);
+  background-color: rgba(127, 187, 152, 0.8);
+}
+/*outdoor activity*/
+#page1 #big2 {
+  padding: 12%;
+  top: -3em;
+  left: 32em;
+  box-shadow: 0px 0px 10px rgb(26, 47, 101);
+  background-color: rgba(26, 47, 101, 0.5);
+}
+/*convention*/
+#page1 #big3 {
+  padding: 10%;
+  left: 23em;
+  top: -1em;
+  background-color: rgba(99, 66, 148, 0.6);
+}
 
-          background-color: rgba(127, 187, 152, 0.8);
-          }
-/*       outdoor activity     */
-          #page1 #big2 {
-          padding: 12%;
-          top: -3em;
-          left: 32em;
-              box-shadow: 0px 0px 10px rgb(26, 47, 101);
-
-          background-color: rgba(26, 47, 101, 0.5);
-
-          }
-/*       convention     */
-          #page1 #big3 {
-          padding: 10%;
-          left: 23em;
-          top: -1em;
-                    background-color: rgba(99, 66, 148, 0.6);
-
-          }
-
-
-
-
-          .circle{
-          transition: 1s ease;
-          }
-          .circle:hover{
-          -webkit-transform: scale(1.2);
-          -ms-transform: scale(1.2);
-          transform: scale(1.2);
-          transition: 1s ease;
-          }
+.circle{
+  transition: 1s ease;
+}
+.circle:hover{
+  transform: scale(1.2);
+  transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
