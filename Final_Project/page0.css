@@ -86,7 +86,10 @@ html body {
 #lDot, #rDot {
   position: absolute;
   top: 113px;
+  animation:blink 4s ease-in-out infinite;
 }
+
+
 #lEye {
   left: 100px;
 }
@@ -99,7 +102,7 @@ html body {
   background:rgba(0,0,0,.9);
   border-radius:10px;
   border-radius:50%;
-  animation:blink 4s ease-in-out infinite;
+
 }
 #rDot {
   width:10px;
@@ -107,9 +110,13 @@ html body {
   background:rgba(0,0,0,.9);
   border-radius:10px;
   border-radius:50%;
-  animation:blink 4s ease-in-out infinite;
+
 }
-@keyframes blink { 90% { transform:none; } 95% { transform:rotateX(90deg); } }
+
+@keyframes blink { 
+  90% { transform:none; }
+  95% { transform:rotateX(90deg); } }
+
 
 .sayHi {
   position: relative;

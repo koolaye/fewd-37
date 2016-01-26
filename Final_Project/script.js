@@ -2,9 +2,7 @@
 $("#page0").ready(function(displayIntroPage) {
   $("#leftBlock section h1").addClass("animated slideInRight");
   $("#rightBlock section h1").addClass("animated slideInLeft");
-
   $(".sayHi").addClass("animated bounceIn");
-  // $("#lEye, #rEye").hide(0).delay(4000).show(0);
   $("#page1").hide();
   $("#page2").hide();
   $("#page3").hide();
@@ -61,6 +59,9 @@ $("#networking-form").find("#button2").on("click", function(createScript) {
   $(".line9").append($(".answeri").val());
 });
 
+
+//USED AS A GUIDE/TUTORIAL
+//WILL REVISE LATER
 var pageDoc = document.querySelector("#page0");
 pageDoc.onmousemove = moveHandler;
 
